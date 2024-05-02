@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Hunched - Text Neck Solution",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
@@ -8,28 +8,24 @@
     "logo_height": "48",
     "logo_text": "Bigspring Light"
   },
-
   "settings": {
     "pagination": 4,
     "summary_length": 200,
     "blog_folder": "blogs"
   },
-
   "nav_button": {
-    "enable": true,
-    "label": "Get Started",
+    "enable": false,
+    "label": "Learn More",
     "link": "/contact"
   },
-
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "footer_content": "The Posture Guardian for Your Digital Well-being<br/>By: Dr. Dean Fishman, D.C.",
     "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
   },
-
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Steve Evrard",
     "meta_image": "",
     "meta_description": "A SAAS template for nextjs"
   }

@@ -32,7 +32,7 @@ const Home = ({ frontmatter }) => {
                 </Link>
               )}
               <Image
-                className="mx-auto mt-12"
+                className="mx-auto"
                 src={banner.image}
                 width={750}
                 height={390}
@@ -136,24 +136,6 @@ const Home = ({ frontmatter }) => {
           </section>
         );
       })}
-
-      {/* workflow */}
-      <section className="section pb-0">
-        <div className="mb-8 text-center">
-          {markdownify(
-            workflow.title,
-            "h2",
-            "mx-auto max-w-[400px] font-bold leading-[44px]"
-          )}
-          {markdownify(workflow.description, "p", "mt-3")}
-        </div>
-        <Image
-          src={workflow.image}
-          alt="workflow image"
-          width={1920}
-          height={296}
-        />
-      </section>
 
       {/* Cta */}
       <Cta cta={call_to_action} />

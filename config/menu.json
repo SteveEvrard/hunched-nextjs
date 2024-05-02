@@ -9,10 +9,6 @@
       "url": "/blogs"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
-    },
-    {
       "name": "Contact",
       "url": "/contact"
     },
@@ -26,12 +22,8 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
           "text": "Quick Start",
-          "url": "#"
+          "url": "/"
         }
       ]
     },
@@ -40,15 +32,7 @@
       "menu": [
         {
           "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
+          "url": "/"
         }
       ]
     },
