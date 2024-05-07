@@ -4,6 +4,7 @@ import Footer from "@partials/Footer";
 import Header from "@partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import GoogleTagManager from './components/GoogleTagManager';
 
 const Base = ({
   title,
@@ -39,6 +40,10 @@ const Base = ({
           name="description"
           content={plainify(description ? description : meta_description)}
         />
+          <meta name="description"
+    content="Discover Hunched, the leading app for addressing text neck and improving your posture. Learn more about our innovative features and how we can help you maintain spinal health." />
+          <meta name="author" content="Dr. Dean Fishman, D.C." />
+          <meta name="keywords" content="text neck, posture correction, spinal health, posture app, text neck solution" />
 
         {/* author from config.json */}
         <meta name="author" content={meta_author} />
@@ -88,7 +93,9 @@ const Base = ({
           content={`${base_url}${image ? image : meta_image}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
+        
       </Head>
+      <GoogleTagManager />
       <Header />
       {/* main site */}
       <main>{children}</main>

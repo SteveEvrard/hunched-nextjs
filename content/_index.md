@@ -2,7 +2,8 @@
 banner:
   title: Your Text Neck Solution
   content: "The Posture Guardian for Your Digital Well-being<br/>By: Dr. Dean Fishman, D.C."
-  image: /images/19886.svg
+  image: /images/background.jpg
+  app_store_image: /images/app-store-badge.svg
   button:
     label: "Contact Us"
     link: "/contact"

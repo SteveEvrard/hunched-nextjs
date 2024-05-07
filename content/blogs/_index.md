@@ -1,4 +1,4 @@
 ---
-title: "Coming soon!"
-description: "this is meta description"
+title: "Blog coming soon!"
+description: "Text Next Prevention"
 ---

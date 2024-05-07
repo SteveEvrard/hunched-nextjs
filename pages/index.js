@@ -31,6 +31,21 @@ const Home = ({ frontmatter }) => {
                   {banner.button.label}
                 </Link>
               )}
+              <a             
+                aria-label="app store"
+                href="https://apps.apple.com/us/app/hunched-text-neck-solution/id6450959041"
+                target="_blank"
+                rel="noopener noreferrer nofollow">
+                <Image
+                  style={{margin: '30px auto'}}
+                  className="mx-auto"
+                  src={banner.app_store_image}
+                  width={450}
+                  height={390}
+                  alt="app store image"
+                  priority
+                />
+              </a>
               <Image
                 className="mx-auto"
                 src={banner.image}
@@ -138,7 +153,7 @@ const Home = ({ frontmatter }) => {
       })}
 
       {/* Cta */}
-      <Cta cta={call_to_action} />
+      {/* <Cta cta={call_to_action} /> */}
     </Base>
   );
 };
