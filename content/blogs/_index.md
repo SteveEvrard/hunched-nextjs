@@ -1,4 +1,4 @@
 ---
-title: "Blog coming soon!"
+title: "Hunched Blog"
 description: "Text Next Prevention"
 ---

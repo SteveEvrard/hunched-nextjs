@@ -44,14 +44,14 @@ services:
       label: Learn more
       link: /blogs
 
-  # - title: "It is a privately owned Information and cyber security company"
-  #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-  #   images: 
-  #     - "/images/service-slide-1.png"
-  #   button:
-  #     enable: true
-  #     label: Check it out
-  #     link: /contact
+  - title: "Testimonial by Barry E. Schapiro, M.D."
+    content: "\"As an orthopedic surgeon with over 2 decades of clinical experience... I wholeheartedly offer my endorsement for the novel smartphone application, Hunched. In my orthopedic practice, I have witnessed firsthand the transformative impact this innovative tool has had on my patients' lives... Hunched represents a paradigm shift in the management and prevention of neck pain and cervical spine conditions. Its ability to monitor and correct postural abnormalities in real-time is a huge help for patients with chronic neck pain and muscular fatigue... Patients report reduced pain levels, improved mobility, and enhanced quality of life as a result of using the app regularly... I am convinced that Hunched has the potential to revolutionize the way we approach the management of neck pain and cervical spine degenerative disc disease... I wholeheartedly endorse Hunched and its mission to empower individuals to take control of their spinal health.\""
+    images: 
+      - "/images/testimonial.jpg"
+    button:
+      enable: true
+      label: Read full testimonial
+      link: /blogs/testimonial-barry-schapiro
   
   # - title: "It’s a team of experienced and skilled people with distributions"
   #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
