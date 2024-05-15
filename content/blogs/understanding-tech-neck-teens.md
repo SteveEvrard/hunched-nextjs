@@ -31,7 +31,7 @@ While technology has its benefits, excessive use can lead to physical ailments, 
 
 1. **Ergonomic Adjustments:** Ensure that screens are at eye level and that chairs support the lower back.
 2. **Regular Breaks:** Encourage teens to take breaks every 30 minutes to stretch and adjust their posture.
-3. **trengthening Exercises:** Focus on exercises that strengthen the neck, shoulders, and upper back.
+3. **Strengthening Exercises:** Focus on exercises that strengthen the neck, shoulders, and upper back.
 4. **Posture Reminders:** Use apps like **Hunched: Your Text Neck Solution**, which alerts users to correct their posture.
 5. **Professional Help:** Consult physical therapists or chiropractors who specialize in postural correction.
 
