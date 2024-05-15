@@ -7,7 +7,7 @@ draft: false
 ---
 
 Testimonial on Hunched by Barry E. Schapiro, M.D., Board Certified Orthopedic Surgeon, of Acme Spine & Orthopedics
-                                                                                    
+
 ---
 
 ##### Barry E. Schapiro, M.D.

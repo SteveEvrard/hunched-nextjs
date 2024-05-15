@@ -1,11 +1,12 @@
 import { markdownify } from "@lib/utils/textConverter";
+import { getFormattedDate } from "@lib/utils/dateConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Base from "./Baseof";
 
 const PostSingle = ({ frontmatter, content, mdxContent }) => {
-  let { description, title, image } = frontmatter;
+  let { description, title, date, image } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
   return (
@@ -26,6 +27,7 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
                 />
               )}
               {markdownify(title, "h1", "h2 mb-6 mt-6 text-left")}
+              {markdownify(getFormattedDate(date), "h4", "h4 mb-6 mt-6 text-left")}
 
               <div className="content mb-16 text-left">
                 <MDXRemote {...mdxContent} components={shortcodes} />
