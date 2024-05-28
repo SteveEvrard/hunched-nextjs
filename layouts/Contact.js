@@ -1,10 +1,33 @@
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
-  const { contact_form_action } = config.params;
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_jvsdyl8', // Replace with your EmailJS service ID
+      'template_2x1a3q3', // Replace with your EmailJS template ID
+      form.current,
+      'oxyjzMcJqGl804YN-' // Replace with your EmailJS user ID
+    )
+    .then((result) => {
+        console.log(result.text);
+        alert('Message sent successfully!');
+    }, (error) => {
+        console.log(error.text);
+        alert('Failed to send the message, please try again.');
+    });
+
+    e.target.reset();
+  };
 
   return (
     <section className="section background">
@@ -13,9 +36,9 @@ const Contact = ({ data }) => {
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
             <form
+              ref={form}
               className="contact-form"
-              method="POST"
-              action={contact_form_action}
+              onSubmit={sendEmail}
             >
               <div className="mb-3">
                 <input
@@ -36,19 +59,12 @@ const Contact = ({ data }) => {
                 />
               </div>
               <div className="mb-3">
-                <input
-                  className="form-input w-full rounded"
-                  name="subject"
-                  type="text"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div className="mb-3">
                 <textarea
                   className="form-textarea w-full rounded-md"
+                  name="message"
                   rows="7"
                   placeholder="Your message"
+                  required
                 />
               </div>
               <button type="submit" className="btn btn-primary">
