@@ -48,3 +48,11 @@ h6,
 code {
   @apply before:hidden after:hidden;
 }
+
+.background {
+  @apply relative; // Ensure this element is positioned relatively
+  background-image: url('/images/background-gpt.jpg'); // Path to your image
+  background-size: cover; // Make sure the image covers the entire element
+  background-position: center; // Center the image
+  background-repeat: no-repeat; // Prevent the background from repeating
+}

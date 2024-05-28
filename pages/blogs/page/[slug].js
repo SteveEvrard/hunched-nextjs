@@ -18,7 +18,7 @@ const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
 
   return (
     <Base title={title}>
-      <section className="section">
+      <section className="section background">
         <div className="container">
           {markdownify(title, "h1", "h1 text-center font-normal text-[56px]")}
           <Posts posts={currentPosts} />
