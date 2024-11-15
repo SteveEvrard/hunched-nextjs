@@ -46,6 +46,21 @@ const Home = ({ frontmatter }) => {
                   priority
                 />
               </a>
+              <a             
+                aria-label="app store"
+                href="https://play.google.com/store/apps/details?id=com.app.hunched2&hl=en_US"
+                target="_blank"
+                rel="noopener noreferrer nofollow">
+                <Image
+                  style={{margin: '30px auto'}}
+                  className="mx-auto"
+                  src={banner.play_store_image}
+                  width={450}
+                  height={390}
+                  alt="app store image"
+                  priority
+                />
+              </a>
               <Image
                 className="mx-auto"
                 src={banner.image}

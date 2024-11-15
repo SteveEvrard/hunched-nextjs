@@ -4,6 +4,7 @@ banner:
   content: "The Posture Guardian for Your Digital Well-being<br/>By: Dr. Dean Fishman, D.C."
   image: /images/background.jpg
   app_store_image: /images/app-store-badge.svg
+  play_store_image: /images/play-store-badge.svg
   button:
     label: "Contact Us"
     link: "/contact"
